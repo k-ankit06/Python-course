@@ -1,6 +1,6 @@
 # Veraibles:-> 
 #     are containers help us to store data.
---------------------------------------------------  
+
 # a = 100
 
 # name = "Kriss moris"
