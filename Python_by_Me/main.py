@@ -163,3 +163,70 @@
 # a **= b
 # print("a **= b:", a)  # 8
 
+
+
+# x = 3.14
+# y = -4
+# z = 5
+# result = round(x)    t
+# result = abs(y)
+# result = pow(4,3)
+# result = max(x,y,z)
+# result = min(x,y,z)
+# print(result)
+
+
+
+
+
+
+import math
+# x = 9.9
+# print(math.pi)
+# print(math.e)
+
+# result = math.sqrt(x)
+# result = math.ceil(x)
+# result = math.floor(x)
+# print(result)
+
+
+
+# radius = float(input("Enter the radius of circle"))
+# area = math.pi * pow(radius,2)
+# print(f"The area of circle is :{area}cm")
+
+
+
+
+
+
+# circumference = 2 * math.pi * radius
+
+# print(f"the circumference of circle is :{round(cirumference, 2)} cm")
+
+
+
+
+
+
+
+
+
+
+
+
+# if = Do some code onlt IF some condition is True
+#        Else  do something else
+
+
+
+age  = int(input("Enter your age"))
+
+if age>= 18:
+    print("You are eligible for vote")
+    
+
+else:
+    print("You are not eligible for vote")
+
