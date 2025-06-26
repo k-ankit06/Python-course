@@ -221,12 +221,145 @@ import math
 
 
 
-age  = int(input("Enter your age"))
+# age  = int(input("Enter your age"))
 
-if age>= 18:
-    print("You are eligible for vote")
-    
+# if age>= 18:
+#     print("You are eligible for vote")
+# elif age < 0 :
+#     print("Invalid age")
 
-else:
-    print("You are not eligible for vote")
+# else:
+#     print("You are not eligible for vote")
+
+
+
+
+# Pyhton Calculator
+# operator = input("Enter an operator (+, -, *, /):")
+# num1 = int(input("Enter first number:"))
+# num2 = int(input("Enter second number:"))
+
+# if operator == "+":
+#     result = num1 + num2
+#     print(result)
+# elif operator == "-":
+#     result = num1 - num2
+#     print(result)
+# elif operator == "*":
+#     result = num1 * num2
+#     print(result)
+# elif operator == "/":
+#     result = num1 / num2
+#     print(result)
+# else:
+# print(f"{operator} is not valid")
+
+
+
+
+
+
+# Python Weight converter
+
+
+# weight = float(input("Enter your weight"))
+# unit = input("kilograms or Pounds? (k  or  l):")
+
+# if unit  == "k":
+#    weight = weight * 2.205
+#    unit = "Lbs."
+# elif unit == "l":
+#    weight = weight / 2.205
+#    unit = "kgs."
+# else:
+#    print(f"{unit} was not valid")
+
+# print(f"Your Weight is : {round(weight,3)} {unit}")
+
+
+
+
+
+
+# logical operators = evaluate multiple conditions ( or, and ,not)
+#                 or  = at least one condition must be true
+#                and  = both condtions are true
+#                not  = invetrs the condtion (not false , not true)
+
+
+
+# temp = 36
+# is_raining = False
+
+# if temp > 35 or temp < 0 or is_raining:
+#     print("the outdoor event is cancelled")
+
+# else:
+#     print("the outdoor event is on")
+
+
+
+
+
+
+# Conditional Expression =  A one-line shortcur for the if-else statement (ternary operator )
+#                         Print or assign one of two values based on a condition
+#                         X if condition else Y
+
+
+
+
+
+# num =  5 
+# a = 6
+# b = 7
+# age = 19
+#
+
+# print("Psitive" if num>0 else "Negative")
+# print("EVEN" if num % 2 == 0 else "ODD" )
+# max_num = a if a>b else b
+# print(max_num)
+# min_num =  a if a<b else b
+# print(min_num)
+# status = "Adult" if age>=18 else "Child"
+# print(status)
+
+
+
+
+
+
+
+
+
+
+
+
+# String Methods
+
+# name  = input("Enter your full name:")
+# phone_number = int(input("Enter your phoner number:"))
+# result = len(name)
+# print(result)
+# result = name.find("t")
+# print(result)
+# result = name.rfind("k")
+# print(result)
+# name = name.capitalize()
+# print(name)
+# name = name.upper()
+# print(name)
+# name = name.lower()
+# print(name)
+# result = name.isdigit()
+# result = name.isalpha()
+# result = phone_number.count("-")
+# phone_number = phone_number.replace("-", " ")
+# print(phone_number)
+
+
+
+
+
 
